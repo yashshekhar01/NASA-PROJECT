@@ -5,7 +5,7 @@ const {
      mongoConnect,
      mongoDisconnect,
      } = require('../../services/mongo');
-     const {
+     var {
          loadPlanetsData,
      } = require('../../models/planets.model');
 
